@@ -1,0 +1,12 @@
+Para crear un entorno virtual, decide en que carpeta quieres crearlo y ejecuta el módulo venv como script con la ruta a la carpeta:
+
+python3 -m venv tutorial-env
+Esto creará la carpeta tutorial-env si no existe, y también creará las subcarpetas conteniendo la copia del intérprete Python, la librería estándar y los archivos de soporte.
+
+Una ruta común para el directorio de un entorno virtual es .venv. Ese nombre mantiene el directorio típicamente escondido en la consola y fuera de vista mientras le da un nombre que explica cuál es el motivo de su existencia. También permite que no colisione con los ficheros de definición de variables de entorno .env que algunas herramientas soportan.
+
+Una vez creado el entorno virtual, podrás activarlo.
+
+En Windows, ejecuta:
+
+tutorial-env\Scripts\activate.bat
